@@ -6,7 +6,7 @@ Submitted by: Michael Lian
 
 Time spent: 4 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/exultant-wool-tray?path=script.js%3A18%3A15
 
 ## Required Functionality
 

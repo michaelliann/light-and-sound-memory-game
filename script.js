@@ -14,8 +14,15 @@ var volume = 0.5; //must be between 0.0 and 1.0
 var guessCounter = 0;
 var wrongGuessCount = 0;
 
+function generatePattern() {
+  for (let i = 0; i < 8; i++) {
+    pattern[i] = Math.floor(Math.random() * 4) + 1;
+  }
+}
+
 function startGame() {
   //initialize game variables
+  generatePattern();
   progress = 0;
   gamePlaying = true;
 

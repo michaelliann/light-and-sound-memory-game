@@ -12,6 +12,7 @@ var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5; //must be between 0.0 and 1.0
 var guessCounter = 0;
+var wrongGuessCount = 0;
 
 function startGame() {
   //initialize game variables
@@ -95,11 +96,13 @@ function playClueSequence() {
 
 function loseGame() {
   stopGame();
+  wrongGuessCount = 0;
   alert("Game Over. You lost.");
 }
 
 function winGame() {
   stopGame();
+  wrongGuessCount = 0;
   alert("You won!");
 }
 
@@ -126,8 +129,12 @@ function guess(btn) {
       guessCounter++;
     }
   } else {
-    // Guess was incorrect
-    loseGame();
+    if (wrongGuessCount == 3) {
+      loseGame();
+    } else {
+      wrongGuessCount++;
+      playClueSequence();
+    }
   }
 }
 

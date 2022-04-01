@@ -4,7 +4,7 @@
 
 Submitted by: Michael Lian
 
-Time spent: 4 hours spent in total
+Time spent: 8 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/exultant-wool-tray?path=script.js%3A18%3A15
 
@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://i.imgur.com/T4CexfC.gif)
+![](https://i.imgur.com/dMg0Miq.gif)
 ![](https://i.imgur.com/Hc2OxLg.gif)
 ![](gif3-link-here)
 ![](gif4-link-here)
